@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="t d">
+  <title id="t">Portrait placeholder</title><desc id="d">An abstract architectural and botanical composition reserved for Gopika's future portrait.</desc>
+  <defs><filter id="n"><feTurbulence baseFrequency=".65" numOctaves="3" seed="14"/></filter><linearGradient id="b" x2="1" y2="1"><stop stop-color="#253829"/><stop offset="1" stop-color="#17231B"/></linearGradient></defs>
+  <rect width="900" height="1200" fill="url(#b)"/><rect width="900" height="1200" filter="url(#n)" opacity=".035"/>
+  <circle cx="615" cy="370" r="224" fill="#8A9A7B" opacity=".24"/><path d="M95 1000C210 742 243 423 188 90" fill="none" stroke="#D8D1C4" stroke-opacity=".55" stroke-width="3"/><path d="M186 270c-95-55-122-125-112-202 94 30 133 99 112 202ZM176 478c106-63 137-147 119-238-98 42-141 121-119 238ZM144 684C45 620 12 540 24 448c102 42 148 122 120 236Z" fill="none" stroke="#8A9A7B" stroke-width="4"/>
+  <g fill="none" stroke="#D8D1C4" stroke-opacity=".58"><ellipse cx="535" cy="455" rx="150" ry="190" stroke-width="3"/><path d="M290 1030c28-300 120-446 245-446s226 146 256 446" stroke-width="3"/><path d="M290 1030h501M360 850h350" stroke-width="2"/></g>
+  <path d="M610 220h198v620H610Z" fill="#A05F46" opacity=".18"/><path d="M690 1030V700" stroke="#A05F46" stroke-width="9"/>
+  <text x="72" y="1125" fill="#D8D1C4" font-family="Arial,sans-serif" font-size="16" letter-spacing="5">PORTRAIT / TO BE REPLACED</text>
+</svg>

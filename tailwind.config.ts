@@ -7,7 +7,12 @@ export default {
       colors: {
         ink: "var(--ink)",
         forest: "var(--forest)",
+        deepGreen: "var(--deep-green)",
         olive: "var(--olive)",
+        sage: "var(--sage)",
+        stone: "var(--stone)",
+        sand: "var(--sand)",
+        terracotta: "var(--terracotta)",
         oxblood: "var(--oxblood)",
         ivory: "var(--ivory)",
         paper: "var(--paper)",

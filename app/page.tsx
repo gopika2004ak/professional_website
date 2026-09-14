@@ -7,6 +7,7 @@ import { SectionHeading } from "@/components/section-heading";
 import { Visual } from "@/components/visual";
 import { projects } from "@/data/projects";
 import { experiments } from "@/data/experiments";
+import { PortraitPlaceholder } from "@/components/portrait-placeholder";
 
 const principles = [
   ["01", "Observe", "Start with the building, the people and the life already present."],
@@ -23,14 +24,34 @@ export default function Home() {
       <section className="hero">
         <div className="hero-grid">
           <div className="hero-copy">
-            <h1 className="display">Gopika A K</h1>
-            <p className="hero-quote">Observing what exists before<br className="desktop-break" /> deciding what comes next.</p>
-            <div className="hero-meta"><span>Architecture student</span><span>Conservation / Material / Memory</span></div>
+            <p className="eyebrow">Architecture / Conservation / Making</p>
+            <h1 className="hero-name"><span>Gopika</span><span>A K</span></h1>
+            <span className="hero-rule" aria-hidden="true" />
+            <p className="hero-quote">Observing what <em>exists</em> before<br className="desktop-break" /> deciding what comes <em>next</em>.</p>
+            <div className="hero-link-row"><Link className="text-link" href="/work">Explore work <ArrowRight size={15} /></Link></div>
           </div>
-          <div className="hero-image-wrap"><Image src="/images/projects/courtyard-memory/hero.png" alt="A weathered Kerala courtyard house viewed through a dark timber threshold" fill priority sizes="(max-width: 900px) 100vw, 50vw" /></div>
-          <div className="hero-link-row"><Link className="text-link" href="/work">Selected work <ArrowRight size={15} /></Link></div>
+          <div className="hero-image-wrap"><Image src="/images/projects/courtyard-memory/hero-cropped.png" alt="A weathered Kerala courtyard house surrounding a planted open-air court" fill priority sizes="100vw" /></div>
+          <p className="hero-meta">Places / People / Materials / Memory</p>
+          <p className="hero-aside">Built spaces<br />hold stories.<span aria-hidden="true" /></p>
         </div>
       </section>
+
+      <nav className="micro-gallery" aria-label="Explore the portfolio">
+        {[
+          { number: "01", label: "Work", meta: "Courtyard / conservation study", location: "Kerala", href: "/work", src: "/images/projects/courtyard-memory/hero-cropped.png", alt: "Weathered Kerala courtyard architecture" },
+          { number: "02", label: "Approach", meta: "Site observation / hill landscape", location: "Shimla", href: "/approach", src: "/images/field-notes/shimla-slate-roof.jpg", alt: "Timber and slate roofscape on a Shimla hillside" },
+          { number: "03", label: "Experiments", meta: "Material / light / surface study", location: "Ahmedabad", href: "/experiments", src: "/images/field-notes/ahmedabad-sun-breaker.jpg", alt: "Sunlight and deep concrete shading in Ahmedabad" },
+          { number: "04", label: "About", meta: "Personal archive / light / memory", location: "Vietnam", href: "/about", src: "/images/field-notes/vietnam-street-courtyard.jpg", alt: "Layered threshold leading to a planted Vietnamese courtyard" },
+        ].map((item) => (
+          <Link href={item.href} key={item.href} className="micro-gallery-item">
+            <Image src={item.src} alt={item.alt} fill sizes="(max-width: 640px) 50vw, 25vw" />
+            <span className="preview-number">{item.number}</span>
+            <span className="preview-meta">{item.meta}</span>
+            <span className="preview-location">{item.location}</span>
+            <strong>{item.label}</strong><ArrowRight size={15} />
+          </Link>
+        ))}
+      </nav>
 
       <section className="intro-section page-shell">
         <p className="eyebrow">01 / Introduction</p>
@@ -55,8 +76,8 @@ export default function Home() {
       </section>
 
       <section className="about-preview page-shell">
-        <Reveal><div className="portrait-placeholder" role="img" aria-label="Portrait placeholder for Gopika A K"><span>PORTRAIT / TO BE REPLACED</span></div></Reveal>
-        <Reveal className="about-preview-copy"><p className="eyebrow">05 / About</p><h2>Calm in<br /><em>chaos.</em></h2><p>Architecture student, sketcher and visual storyteller. Gopika approaches places with curiosity—travelling, listening, documenting and making before drawing conclusions.</p><div className="currently"><p className="eyebrow">Currently interested in</p><div><span>Conservation</span><span>Earth</span><span>Timber</span><span>Old houses</span><span>Kerala</span></div></div><div className="section-link"><Link href="/about" className="text-link">Meet Gopika <ArrowRight size={15} /></Link></div></Reveal>
+        <Reveal><PortraitPlaceholder /></Reveal>
+        <Reveal className="about-preview-copy"><p className="eyebrow">05 / About</p><h2>Curiosity,<br /><em>made visible.</em></h2><p>Architecture student, sketcher and visual storyteller. Gopika approaches places with curiosity—travelling, listening, documenting and making before drawing conclusions.</p><div className="currently"><p className="eyebrow">Currently interested in</p><div><span>Conservation</span><span>Earth</span><span>Timber</span><span>Old houses</span><span>Kerala</span></div></div><div className="section-link"><Link href="/about" className="text-link">Meet Gopika <ArrowRight size={15} /></Link></div></Reveal>
       </section>
     </>
   );

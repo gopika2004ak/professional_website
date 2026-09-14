@@ -4,16 +4,19 @@ export type Experiment = ProjectImage & {
   number: string;
   title: string;
   category: string;
+  location: string;
   year: string;
 };
 
+// These generated reference images frame the site-visit themes and should be
+// replaced with Gopika's own photographs and drawings before publication.
 export const experiments: Experiment[] = [
-  { number: "E.01", title: "The shaded edge", category: "Site notes", year: "2026", alt: "Observation drawing of a deep veranda", caption: "A threshold measured by light rather than a wall.", tone: "forest", ratio: "portrait" },
-  { number: "E.02", title: "Laterite after rain", category: "Material", year: "2026", alt: "Close material study of wet laterite", caption: "Colour, porosity and the trace of weather.", tone: "earth", ratio: "landscape" },
-  { number: "E.03", title: "Courtyard fragments", category: "Sketches", year: "2026", alt: "Loose architectural courtyard sketches", caption: "Six small ways of holding an open centre.", tone: "ivory", ratio: "wide" },
-  { number: "E.04", title: "Things that hold", category: "Objects / making", year: "2025", alt: "Handmade pottery studies", caption: "Form understood through pressure, weight and touch.", tone: "maroon", ratio: "portrait" },
-  { number: "E.05", title: "Timber joints", category: "Details", year: "2025", alt: "Annotated sketches of timber joints", caption: "A small archive of connections and grain direction.", tone: "ivory", ratio: "landscape" },
-  { number: "E.06", title: "Roadside red", category: "Colour", year: "2025", alt: "Muted colour study from a Kerala street", caption: "Oxblood, dust, leaf and faded limewash.", tone: "earth", ratio: "portrait" },
-  { number: "E.07", title: "Working model 1:50", category: "Models", year: "2025", alt: "Card and earth-toned architectural study model", caption: "Volume tested through removal rather than addition.", tone: "forest", ratio: "wide" },
-  { number: "E.08", title: "Notes from the bus", category: "Photography", year: "2025", alt: "Passing view of a weathered house", caption: "An old house held briefly between trees.", tone: "maroon", ratio: "landscape" },
+  { number: "FIELD 01", title: "Monsoon threshold", category: "Climate / edge", location: "Kerala, India", year: "2026", src: "/images/field-notes/kerala-monsoon-threshold.jpg", alt: "Rain falling into a traditional Kerala courtyard beside a timber verandah", caption: "Rain turns the threshold into climate, sound and shared space.", ratio: "landscape" },
+  { number: "FIELD 02", title: "Slate roof rhythm", category: "Roofscape", location: "Shimla, India", year: "2026", src: "/images/field-notes/shimla-slate-roof.jpg", alt: "Layered slate roofs and timber construction on a Shimla hillside", caption: "Repeated eaves negotiate rain, slope and the scale of the street.", ratio: "landscape" },
+  { number: "LIGHT 03", title: "Sun-breaker / shade", category: "Climate / light", location: "Ahmedabad, India", year: "2026", src: "/images/field-notes/ahmedabad-sun-breaker.jpg", alt: "Deep concrete sun-breakers casting shadows across an Ahmedabad facade", caption: "Depth becomes a climate device before it becomes an expression.", ratio: "landscape" },
+  { number: "STREET 04", title: "Layered shophouse", category: "Street / domestic", location: "Vietnam", year: "2026", src: "/images/field-notes/vietnam-layered-shophouse.jpg", alt: "A layered Vietnamese shophouse threshold leading toward a planted court", caption: "Street, room and garden overlap through a long inhabited threshold.", ratio: "landscape" },
+  { number: "MAT. 05", title: "Laterite / lime / time", category: "Material", location: "Kerala, India", year: "2025", src: "/images/field-notes/kerala-laterite-lime.jpg", alt: "Weathered laterite, lime plaster and timber meeting at an old wall", caption: "Age becomes legible where repair, weather and material meet.", ratio: "landscape" },
+  { number: "SECTION 06", title: "Building with the slope", category: "Settlement", location: "Shimla, India", year: "2025", src: "/images/field-notes/shimla-stepped-settlement.jpg", alt: "Stepped houses and stone paths adapting to a steep Shimla hillside", caption: "The settlement reads as a section drawn directly by the terrain.", ratio: "portrait" },
+  { number: "DETAIL 07", title: "The pol threshold", category: "Measured detail", location: "Ahmedabad, India", year: "2025", src: "/images/field-notes/ahmedabad-pol-threshold.jpg", alt: "Carved timber doorway and raised stone otla at an Ahmedabad pol house", caption: "A small raised edge choreographs pause, welcome and privacy.", ratio: "portrait" },
+  { number: "FIELD 08", title: "Street to courtyard", category: "Everyday life", location: "Vietnam", year: "2025", src: "/images/field-notes/vietnam-street-courtyard.jpg", alt: "View through a Vietnamese lane house toward a planted internal court", caption: "A sequence of doors turns a narrow plot into layered light and air.", ratio: "portrait" },
 ];

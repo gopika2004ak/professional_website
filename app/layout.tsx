@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Manrope, Newsreader } from "next/font/google";
+import { Cormorant_Garamond, Manrope } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 
-const display = Newsreader({ subsets: ["latin"], variable: "--font-display", display: "swap" });
+const display = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["300", "400"],
+  style: ["normal", "italic"],
+  variable: "--font-display",
+  display: "swap",
+});
 const sans = Manrope({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
 
 export const metadata: Metadata = {

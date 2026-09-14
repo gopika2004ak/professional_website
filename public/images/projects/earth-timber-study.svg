@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="t d">
+  <title id="t">Earth and timber material study</title><desc id="d">An abstract timber joint over earthen material fields, clearly marked as a conceptual placeholder.</desc>
+  <defs><filter id="earth"><feTurbulence baseFrequency=".025" numOctaves="4" seed="12"/><feColorMatrix values=".6 0 0 0 .22 .25 0 0 0 .10 .15 0 0 0 .05 0 0 0 .32 0"/></filter><pattern id="grain" width="90" height="24" patternUnits="userSpaceOnUse"><path d="M0 8c24-10 54 10 90-2M0 19c30-8 58 7 90-3" fill="none" stroke="#EAE4D8" stroke-opacity=".12"/></pattern></defs>
+  <rect width="1600" height="1000" fill="#754836"/><rect width="1600" height="1000" filter="url(#earth)" opacity=".34"/>
+  <rect x="190" y="220" width="1220" height="570" fill="none" stroke="#EAE4D8" stroke-opacity=".36" stroke-width="2"/>
+  <g transform="translate(340 150)"><path d="M0 0h265v330h360V0h265v700H625V430H265v270H0Z" fill="#38291F"/><path d="M0 0h890v700H0Z" fill="url(#grain)"/><path d="M265 330h360M265 430h360" stroke="#EAE4D8" stroke-width="5"/><path d="M445 330v100" stroke="#A05F46" stroke-width="18"/></g>
+  <g fill="#EEE9E1" font-family="Arial,sans-serif" font-size="20" letter-spacing="5"><text x="190" y="170">EARTH &amp; TIMBER</text><text x="190" y="858">MATERIAL STUDY · CONCEPTUAL PLACEHOLDER</text></g>
+  <g stroke="#EEE9E1" stroke-opacity=".55" fill="none"><path d="M1250 292h160M1330 292v180"/><circle cx="1330" cy="512" r="38"/><path d="M1330 550v120"/></g>
+</svg>

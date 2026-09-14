@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="t d">
+  <title id="t">Thresholds of home spatial study</title><desc id="d">An architectural section through veranda, shade and room, clearly marked as a conceptual placeholder.</desc>
+  <defs><linearGradient id="shade" x1="0" x2="1"><stop stop-color="#231A18"/><stop offset=".48" stop-color="#5A3231"/><stop offset="1" stop-color="#A05F46" stop-opacity=".25"/></linearGradient><pattern id="h" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M0 36L36 0" stroke="#D8D1C4" stroke-opacity=".07"/></pattern></defs>
+  <rect width="1600" height="1000" fill="#5A3231"/><rect width="1600" height="1000" fill="url(#h)"/>
+  <path d="M0 780h1600V545H1080L910 300H505L320 545H0Z" fill="url(#shade)"/>
+  <g fill="none" stroke="#EEE9E1" stroke-width="5"><path d="M140 780H1460M320 545h760M505 300h405M505 300L320 545M910 300l170 245"/><path d="M445 545v235M610 545v235M1020 545v235"/></g>
+  <path d="M610 780h410V545H610Z" fill="#0F1A14" opacity=".62"/><path d="M1020 545l345 235h-345Z" fill="#D8D1C4" opacity=".18"/>
+  <g fill="#EEE9E1" font-family="Arial,sans-serif" font-size="20" letter-spacing="5"><text x="140" y="150">THRESHOLDS OF HOME</text><text x="140" y="870">SPATIAL STUDY · CONCEPTUAL PLACEHOLDER · SECTION / NTS</text></g>
+  <g fill="#D8D1C4" font-family="Arial" font-size="15" letter-spacing="3"><text x="185" y="748">OUTSIDE</text><text x="704" y="748">VERANDAH / SHADE</text><text x="1190" y="748">ROOM</text></g>
+</svg>

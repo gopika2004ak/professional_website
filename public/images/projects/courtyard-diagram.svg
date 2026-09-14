@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="t d">
+  <title id="t">Courtyard memory conceptual diagram</title><desc id="d">An abstract architectural plan, clearly marked as a placeholder study.</desc>
+  <defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#3F5D3A" stroke-opacity=".15"/></pattern><filter id="n"><feTurbulence baseFrequency=".55" numOctaves="2" seed="4"/><feBlend in="SourceGraphic" mode="multiply"/></filter></defs>
+  <rect width="1600" height="1000" fill="#D8D1C4"/><rect width="1600" height="1000" fill="url(#g)"/>
+  <g fill="none" stroke="#17231B" stroke-width="8" stroke-linecap="square">
+    <path d="M300 188H1250V798H300Z"/><path d="M528 355H1010V676H528Z"/><path d="M300 355H528M1010 355H1250M528 188V355M1010 188V355M528 676V798M1010 676V798"/>
+  </g>
+  <g fill="none" stroke="#A05F46" stroke-width="13"><path d="M1010 355V676"/><path d="M528 676H1010"/></g>
+  <g fill="#3F5D3A"><circle cx="770" cy="512" r="72" opacity=".34"/><circle cx="824" cy="550" r="45" opacity=".5"/><circle cx="727" cy="564" r="33" opacity=".64"/></g>
+  <g fill="#17231B" font-family="Arial,sans-serif" font-size="20" letter-spacing="5"><text x="300" y="150">COURTYARD / MEMORY</text><text x="300" y="870">CONCEPT PLACEHOLDER · PLAN / NTS</text></g>
+  <path d="M1320 188v610M1298 188h44M1298 798h44" stroke="#17231B" stroke-width="2"/><text x="1365" y="510" fill="#17231B" font-family="Arial" font-size="18" letter-spacing="3" transform="rotate(90 1365 510)">EXISTING / RETAIN / LIGHT / COURT</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title description">
+  <title id="title">Courtyard and memory conceptual study</title>
+  <desc id="description">A layered courtyard plan drawn in stone, terracotta and sage over a deep maroon field, clearly marked as a conceptual placeholder.</desc>
+  <defs>
+    <pattern id="lime" width="68" height="44" patternUnits="userSpaceOnUse"><path d="M0 22h68M34 0v22M17 22v22M51 22v22" fill="none" stroke="#D8D1C4" stroke-opacity=".07"/></pattern>
+    <filter id="paper"><feTurbulence baseFrequency=".42" numOctaves="3" seed="18"/><feColorMatrix values=".3 0 0 0 .25 .2 0 0 0 .15 .15 0 0 0 .12 0 0 0 .18 0"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="#5A3231"/>
+  <rect width="1600" height="1000" fill="url(#lime)"/>
+  <rect width="1600" height="1000" filter="url(#paper)" opacity=".22"/>
+  <g fill="none" stroke="#D8D1C4" stroke-width="5" opacity=".82">
+    <path d="M225 210h1150v590H225z"/>
+    <path d="M455 375h690v300H455z"/>
+    <path d="M225 375h230M1145 375h230M455 210v165M1145 210v165M455 675v125M1145 675v125"/>
+  </g>
+  <g fill="none" stroke="#A05F46" stroke-width="13">
+    <path d="M455 675h690"/>
+    <path d="M1145 375v300"/>
+  </g>
+  <g fill="#8A9A7B">
+    <circle cx="770" cy="492" r="74" opacity=".72"/>
+    <circle cx="842" cy="540" r="50" opacity=".62"/>
+    <circle cx="708" cy="570" r="38" opacity=".8"/>
+    <circle cx="875" cy="458" r="28" opacity=".48"/>
+  </g>
+  <g fill="#EEE9E1" font-family="Arial,sans-serif" font-size="20" letter-spacing="5">
+    <text x="225" y="152">COURTYARD / MEMORY</text>
+    <text x="225" y="872">RETAINED CENTRE · CONCEPTUAL PLACEHOLDER</text>
+  </g>
+  <g fill="#D8D1C4" font-family="Arial,sans-serif" font-size="15" letter-spacing="3">
+    <text x="474" y="355">SHADED VERANDAH</text>
+    <text x="694" y="625">OPEN COURT</text>
+    <text x="1170" y="402">REPAIRED EDGE</text>
+  </g>
+  <g stroke="#EEE9E1" stroke-opacity=".45" fill="none" stroke-width="2">
+    <path d="M1308 210v590M1288 210h40M1288 800h40"/>
+    <path d="M270 248h130M270 266h84"/>
+  </g>
+</svg>
